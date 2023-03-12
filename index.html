@@ -12,10 +12,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <link href="./css/tablet.css" rel="stylesheet" />
+    <link href="./css/desktop.css" rel="stylesheet" />
 </head>
 <body >
-   <!-- <header class="header">
+   <header class="header">
      <div class="container heder-container">
         <nav class="header-navigation"> 
           <a href="./index.html" class="heder-logo link"> <span class="caption">Web</span>Studio</a>
@@ -32,16 +35,69 @@
                 <li><a class="header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+            <svg class="mobile-menu-svg"width="32" height="22">
+                <use href="./images/icons.svg#icon-charm-menu-hamburger"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="mobile-menu">
+    <div class="container-mobile">
+        <button type="button" class="mobile-menu-close" data-menu-close>
+             <svg class="mobile-menu-close-icon" width="8" height="8">
+                 <use href="./images/icons.svg#icon-close"></use>
+             </svg>
+         </button>
+        <div class="mobil-container">
+           <nav class="mob-menu-nav">
+                <ul class="mob-menu list">
+                         <li class="mob-menu-item"> <a class="mob-menu-link link " href="./index.html" >Studio</a></li>
+                         <li class="mob-menu-item"> <a class="mob-menu-link link " href="./portfolio.html" >Portfolio</a></li>
+                         <li class="mob-menu-item"> <a class="mob-menu-link link currrent" href="">Contacts</a></li>
+                     </ul>  
+              </nav>
+                 <address class="mob-menu-addres">
+                     <a href="tel:+110001111111" class="mobile-tel-link link"
+                        >+11 (000) 111-11-11</a>
+            
+                      <a href="mailto:info@devstudio.com" class="mobile-mail-link link"
+                        >info@devstudio.com</a>
+            
+                    <ul class="mob-soc-list list">
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                            <svg class="mob-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                            <svg class="mob-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                            <svg class="mob-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                            <svg class="mob-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a></li>
+                    </ul>
+           </addres >
+        </div >
+    </div>
     </div>
     </header> 
-    -->
- <!-- <main>
+   
+ <main>
     <section class="hero">
         <div class="container">
              <h1 class="hero-title">Effective Solutions for Your Business</h1>
               <button class="hero-btn" type="button" data-modal-open>Order Service</button>
         </div>
-    </section> -->
+    </section>
  
  <section class="about">
     <div class="container">
@@ -93,13 +149,13 @@
         <h2 class="work-title">What are we doing</h2>
         <ul class="work-list list">
             <li class="work-item">
-                <img src="./images/img1.jpg" alt="monitor" width="360">
+                <img srcset="./images/img1.jpg 1x, ./images/img2x-min.jpg 2x" src="./images/img1.jpg" alt="monitor" width="360">
             </li>
             <li class="work-item">
-                <img src="./images/img2.jpg" alt="telephone" width="360">
+                <img srcset="./images/img2.jpg 1x, ./images/img-2-2x.jpg 2x" src="./images/img2.jpg" alt="telephone" width="360">
             </li>
             <li class="work-item">
-                <img src="./images/img3.jpg" alt="phone and computer" width="360">
+                <img srcset="./images/img3.jpg 1x, ./images/img-3-2x.jpg 2x" src="./images/img3.jpg" alt="phone and computer" width="360">
             </li>
         </ul>
    </div>
@@ -109,7 +165,7 @@
     <h2 class="team-title">Our Team</h2>
     <ul class="team-list list">
         <li class="team-item  shadow-team">
-            <img src="./images/mark.jpg" alt="markguerrero" width="264">
+            <img srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x" src="./images/mark.jpg" alt="markguerrero" width="264">
             <div class="team-name">
                 <h3 class="team-subject">Mark Guerrero</h3>
                 <p class="team-pre-title">Product Designer</p>
@@ -139,7 +195,7 @@
             </div>
         </li>
         <li class="team-item shadow-team">
-            <img src="./images/tom.jpg" alt="tomford" width="264">
+            <img srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x" src="./images/tom.jpg" alt="tomford" width="264">
             <div class="team-name">
                 <h3 class="team-subject">Tom Ford</h3>
                 <p class="team-pre-title">Frontend Developer</p>
@@ -168,7 +224,7 @@
             </div>
         </li>
         <li class="team-item shadow-team">
-            <img src="./images/camila.jpg" alt="camilagarcia" width="264">
+            <img srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x" src="./images/camila.jpg" alt="camilagarcia" width="264">
            <div class="team-name">
                 <h3 class="team-subject">Camila Garcia</h3>
                 <p class="team-pre-title">Marketing</p>
@@ -197,7 +253,7 @@
            </div>
         </li>
         <li class="team-item shadow-team">
-            <img src="./images/daniel.jpg" alt="danielwilson" width="264">
+            <img srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x" src="./images/daniel.jpg" alt="danielwilson" width="264">
             <div class="team-name">
                 <h3 class="team-subject">Daniel Wilson</h3>
                 <p class="team-pre-title">UI Designer</p>

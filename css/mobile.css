@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px) {
+    /* .work {
+        display: none;
+    } */
+
+
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+    .hero-title{
+    max-width: 320px;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+    }
+
+    /* .container-about {
+        display: none;
+    } */
+    /* .work {
+        display: none;
+    } */
+
+}
+
+
