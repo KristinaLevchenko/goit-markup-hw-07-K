@@ -11,11 +11,24 @@
          display: none;
      }
 
-    .adress {
-        font-style: normal;
-        display: flex;
-        margin-left: auto;
+     .adress-heder {
+    display: flex;
+        flex-direction: column;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
      }
+
+     .header-tel {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        
+     }
+
+
 
     .hero{
         background-image: var(--linear-gradient),

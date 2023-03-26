@@ -466,7 +466,7 @@ border-color: var(--focus-btn-color);
 .mob-soc-icon {}
 
 
-.adress{
+.adress-heder{
     display: none;
 }
 
@@ -546,8 +546,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--second-title-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
 
 }
 .header-tel:hover, .header-tel:focus{
@@ -848,7 +848,16 @@ background-color: var(--focus-btn-color);
         letter-spacing: 0.03em;
         color: var(--mein-title-color);
         text-transform: uppercase;
-        margin-bottom: 16px;
+        
+}
+.footer-logo{
+    width: 268px;
+        margin: 0 auto;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 72px;
 }
 
 .caption-pre {
@@ -863,13 +872,13 @@ background-color: var(--focus-btn-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--third-title-color);
-        max-width: 264px;
-        margin-top: 16px;
+        max-width: 268px;
+        
         
 }
 
 .foot-container{
-    display: flex;
+    /* display: flex; */
 }
 
 .foot-logo{
@@ -879,7 +888,12 @@ background-color: var(--focus-btn-color);
 
 
 .footer-social{
- margin-left: 120px;
+ margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
     width: 208px;
 }
 
@@ -889,7 +903,7 @@ background-color: var(--focus-btn-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    
 }
 
 .footer-soc {
@@ -909,7 +923,8 @@ background-color: var(--focus-btn-color);
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
+        /* background-color: rgba(255, 255, 255, 0.1); */
+        background-color: var(--mein-btn-color) ;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -919,7 +934,10 @@ background-color: var(--focus-btn-color);
 }
 
 .footer-form {
-    margin-left: 80px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
 }
 
 .footer-input-text {
@@ -939,7 +957,7 @@ background-color: var(--focus-btn-color);
 }
 
 .footer-email{
-    width: 264px;
+    width: 288px;
     height: 40px;
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);

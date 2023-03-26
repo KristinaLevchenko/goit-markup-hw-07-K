@@ -1,4 +1,9 @@
 @media screen and (min-width: 1200px) {
+
+    .adress-heder{
+        flex-direction: row;
+            gap: 40px;
+    }
     .container {
         max-width: 1158px;
     }
