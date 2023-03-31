@@ -17,6 +17,9 @@
          .mobile-tel-link {
              font-size: 36px;
          }
+                 .footer-email {
+                     width: 398px;
+                 }
 
 }
 
@@ -44,6 +47,13 @@
     .mobile-tel-link {
      font-size: 36px;    
     }
+     
+    .modal{
+        min-height: 586px;
+            width: 392px;
+    }
+
+    
     /* .container-about {
         display: none;
     } */
@@ -53,4 +63,11 @@
 
 
 }
+/* 
+@media screen and (max-width: 767px){
+    .footer-email{
+            width: 398px;
+        }
+
+} */
 

@@ -38,6 +38,13 @@
         margin-bottom: 48px;
     }
 
+    .header-tel{
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+    }
+
     .container-about {
         padding: 24px 100px;
         background-color: var(--second-btn-color);
@@ -79,5 +86,26 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+    .footer {
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .footer-wrap{
+        width: 100%;
+    }
+   .footer-logo{
+    margin-right: 120px;
+   }
+   
+   .footer-form{
+    margin-left: auto;
+   }
+
+   .modal{
+    
+   }
 
 }

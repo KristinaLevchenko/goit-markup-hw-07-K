@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="modal-btn" type="button">
+          <svg class="modal-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <form class="form">
+          <b>Leave your contacts and we will call you back</b>
+
+          <div class="form-contacts">
+            <div class="form-field-contacts">
+              <label for="name" class="form-label-contacts">Name</label>
+              <div class="input-wrapper-contacts">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-input-contacts"
+                  autocomplete="off"
+                />
+                <svg width="18" height="18" class="input-icon-contacts">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="form-field-contacts">
+              <label for="phone" class="form-label-contacts">Phone</label>
+              <div class="input-wrapper-contacts">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="form-input-contacts"
+                  autocomplete="off"
+                />
+                <svg width="18" height="24" class="input-icon-contacts">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-field-contacts">
+              <label for="email" class="form-label-contacts">Email</label>
+              <div class="input-wrapper-contacts">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input-contacts"
+                  autocomplete="off"
+                />
+                <svg width="18" height="24" class="input-icon-contacts">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-field-comments">
+              <label for="comment" class="form-label-comments">Comment</label>
+              <textarea
+                name="comment"
+                id="comment"
+                placeholder="Text input"
+                class="textarea-comments"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-field-policy">
+            <label for="policy" class="form-label-policy">
+              <span class="checkbox-wrapper">
+                <input
+                  type="checkbox"
+                  name="policy"
+                  id="policy"
+                  class="check-input-policy visually-hidden"
+                />
+                <svg width="10" height="8" class="input-icon-policy">
+                  <use href="./images/icons.svg#icon-click1"></use>
+                </svg>
+              </span>
+
+              <span>
+                I accept the terms and conditions of the
+                <a href=""> Privacy Policy</a>
+              </span>
+            </label>
+          </div>
+
+          <button type="submit" class="form-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+
+
+    
+</body>
+</html>
