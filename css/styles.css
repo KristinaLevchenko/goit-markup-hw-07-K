@@ -612,6 +612,25 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
+ @media screen and (min-device-pixel-radio: 2) and (min-width: 428px),
+ screen and (min-resolution: 192dpi) and (min-width: 428px),
+ screen and (min-resolution: 2dppx) and (min-width: 428px) {
+     .hero {
+         background-image: var(--linear-gradient),
+             url(../images/fon-tablet-min.jpg);
+         height: 436px;
+     }
+
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+         .hero {
+             background-image: var(--linear-gradient),
+                 url(../images/fon-tablet2x-min.jpg);
+         }
+     }
+ }
+
 .hero-title{
     font-style: normal;
     font-weight: 700;

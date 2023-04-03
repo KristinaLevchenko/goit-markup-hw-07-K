@@ -171,6 +171,22 @@
   }
 }
 
+@media screen and (min-width: 769px){
+    .hero {
+            background-image: var(--linear-gradient),
+                url(../images/people-officee.jpg);}
+}
+
+@media screen and (min-device-pixel-radio: 2) and (min-width: 769px),
+screen and (min-resolution: 192dpi) and (min-width: 769px),
+screen and (min-resolution: 2dppx) and (min-width: 769px) {
+
+            .hero {
+                    background-image: var(--linear-gradient),
+                        url(../images/people-office2x-min.jpg);
+                }
+}
+
 @media screen and (max-width: 1157px) {
     .container-about {
         display: none;

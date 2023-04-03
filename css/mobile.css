@@ -23,6 +23,15 @@
 
 }
 
+@media screen and (min-width: 428px){
+    .hero{
+        background-image: var(--linear-gradient),
+                url(../images/fon-tablet-min.jpg);
+    }
+}
+
+
+
 @media screen and (min-width: 480px) {
     .container {
         max-width: 426px;
