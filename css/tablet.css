@@ -74,23 +74,46 @@
         text-align: left;
     }
 
+    .about-list{
+        row-gap: 72px
+        ;
+    }
+    .team-list{
+        gap: 24px;
+        row-gap: 64px;
+    }
+
 
     /* .work {
         display: none;
     } */
 
     .team>.container {
-        max-width: 552px;
+        max-width: 582px;
     }
 
     .team-item {
         width: calc((100% - 24px) / 2);
+    }
+     
+    
+     .Customers>.container {
+         max-width: 582px;
+     }
+
+    .customers-list{
+        row-gap: 72px;
     }
 
     .customers-item {
         width: calc((100% - 48px) / 3);
 
     }
+     
+
+     .footer>.container {
+         max-width: 582px;
+     }
 
         .footer-wrap {
             display: flex;
@@ -98,8 +121,8 @@
             column-gap: 24px;
             row-gap: 74px;
             width: 498px;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto;
+            margin-right: auto; */
         }
 
     .footer-logo{
@@ -117,6 +140,8 @@
     width: auto;
     
    }
+
+
 
    .footer-social{
     text-align: start;

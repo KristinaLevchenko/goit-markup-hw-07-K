@@ -76,6 +76,11 @@
         padding-bottom: 120px;
         padding-top: 120px;
     }
+    
+
+      .Customers>.container {
+        max-width: 1158px;
+     }
 
     .customers-item {
         width: calc((100% - 120px) / 6);
@@ -86,6 +91,10 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+     .footer>.container {
+         max-width: 1158px;
+     }
 
     .footer {
         
